@@ -1,0 +1,31 @@
+{
+  "name": "rodrigoaleixo/rfbbrasil",
+  "description": "Biblioteca API para Leitura da Ficha Cadastral em PDF da Receita Federal do Brasil",
+  "keywords": [
+    "PHP",
+    "Nuuki",
+    "Rodrigo Aleixo",
+    "Receita Federal",
+    "RFB"
+  ],
+  "homepage": "https://www.nuuki.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo Aleixo",
+      "email": "rodrigoaleixo@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "smalot/pdfparser": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "RodrigoAleixo\\RFBrasil\\": "src"
+    }
+  }
+}
